@@ -21,11 +21,8 @@
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	"forwardPorts": [3000],
 
-	"postCreateCommand": "yarn install",
+	"postCreateCommand": "cd ./client && yarn install && cd ..",
 
-	"postStartCommand": "yarn install && yarn dev",
-
-	"postAttachCommand": "yarn dev",
 	// Configure tool-specific properties.
 	// "customizations": {},
 
