@@ -18,6 +18,14 @@ export default function Landing() {
                     ¡Gracias por vuestra colaboración!
                 </p>
             </div>
+            <div className="arrows-container">
+                <div className="arrow-left">
+                    <a href="/queja">&lt; Queja</a>
+                </div>
+                <div className="arrow-right">
+                    <a href="/sugerencia">Sugerencia &gt;</a>
+                </div>
+            </div>
         </>
     )
 }
