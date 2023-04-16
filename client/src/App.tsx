@@ -1,11 +1,20 @@
 import './App.css'
+import Landing from './pages/Landing/Landing'
+
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom"
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Landing />,
+  },
+]);
 
 function App() {
   return (
-    <div>
-      <h1>COMENTA</h1>
-      <h3>Plataforma de Quejas y Sugerencias a la Delegación de Alumnos de la ETSISI</h3>
-    </div>
+    <RouterProvider router={router} />
   )
 }
 

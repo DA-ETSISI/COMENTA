@@ -1,0 +1,26 @@
+.landing-content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.daetsisi-logo {
+    width: 100%;
+    max-width: 350px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#title-landing {
+    font-size: 90px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+#description {
+    font-size: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+}
