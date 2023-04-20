@@ -1,7 +1,14 @@
+import Header from "../../components/Header/Header";
+
 export default function Sugerencia() {
     return (
-        <h1>
-            Sugerencia
-        </h1>
+        <>
+            <Header />
+            <div className="arrows-container">
+                <div className="arrow-left">
+                    <a href="/">&lt; Vuelta al inicio</a>
+                </div>
+            </div>
+        </>
     )
 }
